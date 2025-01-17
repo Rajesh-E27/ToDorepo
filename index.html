@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title style="font-family: Arial Black;">Daily TODO</title>
+    <link rel="icon" href="to-do-list-png-the-power-of-a-to-do-list-imodelafrica-1024.png">
+    <link rel="stylesheet" href="main.css">
+
+    <!--Font awesome-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="h1" style="font-family: fantasy;">DAILY TODO LIST<i class="fa-solid fa-check"></i><img
+                href="https://img.icons8.com/?size=100&id=HpGoNbsKfB5M&format=png&color=000000"></img></h1>
+    </div>
+    <div class="inpt">
+        <input id="input" placeholder="ADD NEW TODO">
+        <i class="fa-solid fa-plus" id="plus" onclick="add()"></i>
+        <!--<button id="size" onclick="add()">+</button>-->
+    </div>
+    <div class="li-container">
+        <ul id="list-cont">
+            <li>
+                <button onclick="deleteitem(event)" ;></button>
+            </li>
+        </ul>
+    </div>
+    <div class="about">
+        <h2 style="padding-top: 20px; text-align: center; font-family: Arial Black;">About Us</h2>
+        <div class="border">
+            <h4 style="padding-top: 10px; text-align: center; font-size:20px;">A to-do list is a simple yet powerful
+                tool that helps you
+                organize your tasks and manage your time
+                effectively.</h4>
+            <p style="padding: 15px;"><strong style="font-size:17px;">Increase productivity:</strong>: By breaking down
+                your goals into
+                smaller, manageable tasks, a to-do list helps you
+                stay focused and productive throughout the day1.</p>
+            <p style="padding: 15px;"><strong style="font-size:17px;">Reduce Stress:</strong> Writing down your tasks
+                can relieve the anxiety of
+                remembering everything, allowing you to
+                focus on completing each task one at a time1.</p>
+            <p style="padding: 15px;"><strong style="font-size:17px;">Enhances Time-Management:</strong> To-do lists
+                enable you to
+                prioritize tasks, ensuring that you tackle the most
+                important ones first and use your time wisely2.</p>
+            <p style="padding: 15px;"><strong style="font-size:17px;">Accomplishment:</strong>Checking off completed
+                tasks gives you a sense of achievement and
+                motivates you to keep going3.</p>
+            <h4 style="padding: 15px; text-align: center; font-size:20px;">Using a to-do list can transform the way you
+                approach your
+                daily activities, making you more organized and
+                efficient</h4>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
